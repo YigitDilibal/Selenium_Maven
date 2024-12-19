@@ -14,4 +14,25 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <!--
+        Biz projemize eklemek istedigimiz her seyi maven'dan isteyecegiz
+        maven'dan bir kutuphaneyi projemize eklemesini istemenin yolu
+        pom.xml'e istedigimiz kutuphaneyi yazmaktir.
+
+        simdilik ihtiyacimiz olan herseyi
+        dependencies tag'larinin arasina yazacagiz.
+        -->
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.27.0</version>
+        </dependency>
+
+
+
+    </dependencies>
+
 </project>

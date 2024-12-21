@@ -53,6 +53,7 @@ public class C03_IlkTestOtomasyonu {
 
         Thread.sleep(3000);
         driver.quit();
+        
 
     }
 }
